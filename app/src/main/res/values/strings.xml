@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">The Office</string>
+    <string name="quote_button">All Quotes</string>
+    <string name="home_quote">\"Bears, Beets, Battlestar Galactica.\"</string>
+    <string name="qotd_button">Quote of the Day</string>
+</resources>
