@@ -7,19 +7,19 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="217dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="98dp"
-        android:layout_marginLeft="98dp"
-        android:layout_marginTop="118dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginRight="96dp"
-        android:onClick="allQuotes"
-        android:text="@string/quote_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            android:id="@+id/button"
+            android:layout_width="217dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="97dp"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="97dp"
+            android:layout_marginRight="97dp"
+            android:onClick="allQuotes"
+            android:text="@string/quote_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" app:layout_constraintHorizontal_bias="0.0"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -35,16 +35,15 @@
         tools:srcCompat="@drawable/office_logo" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="217dp"
-        android:layout_height="77dp"
-        android:layout_marginTop="48dp"
-        android:onClick="quoteOTD"
-        android:text="@string/qotd_button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+            android:id="@+id/button2"
+            android:layout_width="217dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="48dp"
+            android:onClick="quoteOTD"
+            android:text="@string/qotd_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"/>
 
     <TextView
         android:id="@+id/textView2"
