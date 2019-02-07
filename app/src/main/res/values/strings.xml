@@ -3,4 +3,6 @@
     <string name="quote_button">All Quotes</string>
     <string name="home_quote">\"Bears, Beets, Battlestar Galactica.\"</string>
     <string name="qotd_button">Quote of the Day</string>
+    <string name="qotd_settings">Configure QOTD</string>
+    <string name="qotd_title"><u>Quote of the Day</u></string>
 </resources>
